@@ -16,7 +16,7 @@ import qualified Data.Vector as V
 
 import WeatherApi.Util
 
-apiUrl = "http://api.worldweatheronline.com/free/v1/weather.ashx?"
+apiUrl = "http://api.worldweatheronline.com/premium/v1/weather.ashx?"
 
 type ApiKey = String
 
