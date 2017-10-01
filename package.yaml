@@ -1,5 +1,5 @@
 name:        weather-api
-version:     "0.4.3.3"
+version:     "0.4.4"
 synopsis:    Weather API implemented in Haskell
 description: This library implement generic API for retrieving weather
              by HTTP, and has Google weather API as example.
@@ -14,6 +14,7 @@ library:
   exposed-modules:
     - WeatherApi
     - WeatherApi.WWOnline
+    - WeatherApi.OpenWeatherMap
   other-modules:
     - WeatherApi.Util
 dependencies:
